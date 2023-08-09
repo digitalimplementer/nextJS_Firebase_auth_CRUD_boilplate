@@ -41,31 +41,3 @@
   }
 }
 
-.connected {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  padding: 10px;
-  width: 320px;
-
-  &_title {
-    text-align: center;
-    color: #fff;
-    margin-bottom: 10px;
-    font-size: 19px;
-  }
-
-  &_link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    width: 100px;
-    height: 60px;
-    padding: 5px;
-    border: 1px solid #000;
-    border-radius: 5px;
-    color: #000;
-    font-weight: 700;
-  }
-}

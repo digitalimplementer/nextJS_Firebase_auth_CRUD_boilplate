@@ -4,7 +4,7 @@ import { useUser } from "../firebase/useUser";
 
 import styles from "../styles/Home.module.scss";
 
-export default function Home({ connectedBank }) {
+export default function Home() {
   const { user } = useUser();
 
   if (user) {
